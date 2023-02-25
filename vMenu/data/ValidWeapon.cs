@@ -458,6 +458,11 @@ namespace vMenuClient
             //MPSUM2 DLC (V 2699)
             ["weapon_tacticalrifle"] = Permission.WPTacticalRifle,
             ["weapon_precisionrifle"] = Permission.WPPrecisionRifle,
+            // b2802
+            ["WEAPON_CANDYCANE"] = Permission.WPCandyCane,
+            ["WEAPON_ACIDPACKAGE"] = Permission.WPAcidPackage,
+            ["WEAPON_PISTOLXM3"] = Permission.WPPistolXm3,
+            ["WEAPON_RAILGUNXM3"] = Permission.WPRailgunXm3
         };
         #endregion
 
