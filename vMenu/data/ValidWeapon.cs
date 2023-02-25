@@ -226,6 +226,11 @@ namespace vMenuClient
             //MPSUM2 DLC (V 2699)
             { "weapon_tacticalrifle", GetLabelText("WTD_TACRIFLE") },
             { "weapon_precisionrifle", GetLabelText("WTD_PRCSRIFLE") },
+            // b2802
+            { "WEAPON_CANDYCANE", GetLabelText("WTD_CANDYCANE") },
+            { "WEAPON_ACIDPACKAGE", GetLabelText("WTD_ACIDPACKAGE") },
+            { "WEAPON_PISTOLXM3", GetLabelText("WTD_PISTOLXM3") },
+            { "WEAPON_RAILGUNXM3", GetLabelText("WTD_RAILGUNXM3") },
         };
 
         public static readonly Dictionary<string, string> weaponNames = new Dictionary<string, string>()
