@@ -341,6 +341,11 @@ namespace vMenuClient
             //MPSUM2 DLC (V 2699)
             { "weapon_tacticalrifle", GetLabelText("WT_TACRIFLE") },
             { "weapon_precisionrifle", GetLabelText("WT_PRCSRIFLE") },
+            // b2802
+            { "WEAPON_CANDYCANE", GetLabelText("WT_CANDYCANE") },
+            { "WEAPON_ACIDPACKAGE", GetLabelText("WT_ACIDPACKAGE") },
+            { "WEAPON_PISTOLXM3", GetLabelText("WT_PISTOLXM3") },
+            { "WEAPON_RAILGUNXM3", GetLabelText("WT_RAILGUNXM3") },
         };
         #endregion
 
