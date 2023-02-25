@@ -285,7 +285,7 @@ namespace vMenuClient
                 else
                 {
                     btn.LeftIcon = MenuItem.Icon.LOCK;
-                    btn.Description = "This category has been disabled by the server owner.";
+                    btn.Description = "You must join the discord to access this category. (discord.gg/fivemsandbox)";
                     btn.Enabled = false;
                 }
 
