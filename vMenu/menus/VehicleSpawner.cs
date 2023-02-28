@@ -150,7 +150,7 @@ namespace vMenuClient
             {
                 addonCarsBtn.Enabled = false;
                 addonCarsBtn.LeftIcon = MenuItem.Icon.LOCK;
-                addonCarsBtn.Description = "You must join the discord to access this category. (discord.gg/fivemsandbox)";
+                addonCarsBtn.Description = "~r~You must join the discord to access this category. ~b~(discord.gg/fivemsandbox)";
             }
             #endregion
 
