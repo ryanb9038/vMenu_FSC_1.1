@@ -71,7 +71,7 @@ namespace vMenuClient
 
                             if (!allowedCategories[cat])
                             {
-                                categoryBtn.Description = "You must join the discord to access this category. (discord.gg/fivemsandbox)";
+                                categoryBtn.Description = "~r~You must join the discord to access this category. ~b~(discord.gg/fivemsandbox)";
                                 categoryBtn.Enabled = false;
                                 categoryBtn.LeftIcon = MenuItem.Icon.LOCK;
                                 categoryBtn.Label = "";
