@@ -2218,7 +2218,7 @@ namespace vMenuClient
                             {
                                 if (!(p.Character.AttachedBlip == null || !p.Character.AttachedBlip.Exists()) && MainMenu.OnlinePlayersMenu != null && !MainMenu.OnlinePlayersMenu.PlayersWaypointList.Contains(p.ServerId))
                                 {
-                                    
+                                    p.Character.AttachedBlip.Delete(); // remove player blip if it exists.
                                 }
                             }
                         }
