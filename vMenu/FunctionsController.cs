@@ -2139,7 +2139,7 @@ namespace vMenuClient
                         if (p != null && NetworkIsPlayerActive(p.Handle) && p.Character != null && p.Character.Exists())
                         {
                             // if blips are enabled and the player has permisisons to use them.
-                            if (disabled)
+                            if (enabled)
                             {
                                 if (!p.IsLocal)
                                 {
