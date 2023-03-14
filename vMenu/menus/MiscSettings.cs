@@ -23,7 +23,7 @@ namespace vMenuClient
         public bool ShowCoordinates { get; private set; } = false;
         public bool HideHud { get; private set; } = false;
         public bool HideRadar { get; private set; } = false;
-        public bool ShowLocation { get; private set; } = UserDefaults.MiscShowLocation;
+        public bool ShowLocation { get; private set; } = false;
         public bool DeathNotifications { get; private set; } = UserDefaults.MiscDeathNotifications;
         public bool JoinQuitNotifications { get; private set; } = UserDefaults.MiscJoinQuitNotifications;
         public bool LockCameraX { get; private set; } = false;
